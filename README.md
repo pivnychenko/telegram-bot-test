@@ -4,12 +4,6 @@
 
 ```sh
 
-
-
-
-$ python manage.py migrate
-$ python manage.py makemigrations booksmarket
-
 $ docker-compose build --no-cache
 $ docker-compose up
 $ docker-compose run botserver python app/manage.py migrate
