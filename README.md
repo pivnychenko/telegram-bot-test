@@ -13,3 +13,7 @@ $ docker-compose run botserver python app/manage.py createsuperuser
 
 $ ssh -R 80:localhost:8000 nokey@localhost.run and use url https
 ```
+
+### Required SET hook for telebot http://localhost:8000/set-hook/
+
+### SET Question for bot http://localhost:8000/admin/botstarter/question/
